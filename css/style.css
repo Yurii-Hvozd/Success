@@ -22,4 +22,11 @@ body {
 
 .btn {
     text-decoration: none;
+    padding: 20px 30px;
+    font-size: 18px;
+    background-color: #1C1C25;
+    color: #FFF;
+    cursor: pointer;
+    border-radius: 30px;
+
 }
