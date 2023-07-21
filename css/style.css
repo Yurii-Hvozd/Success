@@ -1,0 +1,26 @@
+body {
+    background: #FBFDFF;
+    text-align: center;
+
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.6;
+}
+
+.title {
+    color: #6B68EC;
+    font-size: 95px;
+    font-weight: 800;
+}
+
+.text {
+    color: #484855;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.btn {
+
+    text-decoration: none;
+}
