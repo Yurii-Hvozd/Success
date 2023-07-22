@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     background: #FBFDFF;
     text-align: center;
@@ -9,6 +13,7 @@ body {
 }
 
 .title {
+    margin: 22px 0 10px;
     color: #6B68EC;
     font-size: 95px;
     font-weight: 800;
@@ -18,15 +23,28 @@ body {
     color: #484855;
     font-size: 22px;
     font-weight: 600;
+    margin: 14px 0;
+    line-height: 1.75;
 }
 
 .btn {
     text-decoration: none;
-    padding: 20px 30px;
     font-size: 18px;
+    padding: 37px 88px;
+    margin: 50px 0;
     background-color: #1C1C25;
     color: #FFF;
     cursor: pointer;
     border-radius: 30px;
+    transition: 0.25s;
+    display: inline-block;
+    font-weight: 600;
+}
 
+.btn:hover {
+    background-color: #6B68EC;
+}
+
+.img {
+    margin-top: 90px;
 }
